@@ -1,0 +1,65 @@
+@value colors: "../../../../src/theme/bkConsts.module.css";
+@value bkColorWhite, bkColorBlack, bkColorBackgroundDark, bkColorBkool from colors;
+
+.buttonVideo {
+    font-size: .8125rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 0;
+}
+.videoIcon {
+    align-items: center;
+    /* background-color: rgba(245, 235, 65, 0.8); */
+    border-radius: 50%;
+    display: flex;
+    height: 64px;
+    justify-content: center;
+    width: 64px;
+}
+.buttonAnimated .videoIcon {
+    background-color: transparent;
+}
+.videoLabel {
+    margin-left: 1rem;
+    text-decoration: underline;
+}
+.videoIcon img {
+    display: block;
+    /* margin: auto;
+    margin-top: 22px; */
+}
+.videoIcon.small {
+    height: 44px;
+    width: 44px;
+}
+.white {
+    color: bkColorWhite;
+}
+.black {
+    color: bkColorBlack;
+}
+.watchVideo {
+    display: none;
+    margin-left: .5rem;
+    text-decoration: none;
+}
+.buttonAnimated::before {
+    border-radius: 50%;
+    content: '';
+    height: 64px;
+    position: absolute;
+    transition: all .25s ease-out;
+    width: 64px;
+    z-index: -1;
+}
+.buttonVideo.buttonAnimated:hover::before {
+    height: 128px;
+    width: 128px;
+}
+.buttonVideo.buttonAnimated:hover > .videoIcon {
+    width: fit-content;
+}
+.buttonVideo.buttonAnimated:hover > .videoIcon .watchVideo {
+    display: block;
+}

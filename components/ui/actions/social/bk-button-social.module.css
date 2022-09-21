@@ -1,0 +1,35 @@
+@value colors: "../../../../src/theme/bkConsts.module.css";
+@value bkColorWhite, bkColorBlack, bkColorBackgroundDark, bkColorBkool from colors;
+
+.buttonSocial {
+    border-radius: 8px;
+    display: block;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    max-width: 500px;
+}
+.buttonSocial .image {
+    height: 24px;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    width: 24px;
+}
+.buttonSocial.google, .buttonSocial.facebook,.buttonSocial.mail {
+    background-color: bkColorWhite;
+}
+.buttonSocial:hover {
+    background-color: #E8E8E8;
+}
+.buttonSocial.facebook {
+    color: #1977F3;
+}
+.buttonSocial.google {
+    color: black;
+}
+.buttonSocial.mail {
+    color: black;
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-display: swap;
+      font-family: "HKGothic-SemiBold";
+    src:url('./HKGothic/HKGothic-SemiBold.eot');
+    src:url('./HKGothic/HKGothic-SemiBold.otf') format('embedded-opentype'),
+        url('./HKGothic/HKGothic-SemiBold.woff') format('woff'),
+        url("./HKGothic/HKGothic-SemiBold.ttf") format("ttf");
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-display: swap;
+      font-family: "HKGrotesk-Bold";
+    src:url('./HKGrotesk/HKGrotesk-Bold.eot');
+    src:url('./HKGrotesk/HKGrotesk-Bold.otf') format('embedded-opentype'),
+        url('./HKGrotesk/HKGrotesk-Bold.woff') format('woff'),
+        url("./HKGrotesk/HKGrotesk-Bold.ttf") format("ttf");
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-display: swap;
+      font-family: "HKGrotesk-Regular";
+    src:url('./HKGrotesk/HKGrotesk-Regular.eot');
+    src:url('./HKGrotesk/HKGrotesk-Regular.otf') format('embedded-opentype'),
+        url('./HKGrotesk/HKGrotesk-Regular.woff') format('woff'),
+        url("./HKGrotesk/HKGrotesk-Regular.ttf") format("ttf");
+    text-rendering: optimizeLegibility;
+}

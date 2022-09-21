@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@value bkColorWhite: #FFFFFF;
+@value bkColorBlack: #000000;
+@value bkColorBackgroundDark: #202020;
+@value bkColorLight: #F5F5F5;
+@value bkColorError: #EC4147;
+@value bkColorWarning: #F9A430;
+@value bkColorInfo: #32AED2;
+@value bkColorSuccess: #19AB65;
+@value bkColorBkool: #F5EB41;
+@value bkColorExperienceCycling: bkColorBkool;
+@value bkColorExperienceFitness: #00EABF;
+@value bkColorExperienceVelodrome: #8E66FF;
+@value bkColorExperienceIndoor: #F0455E;
+@value bkColorZ1: #A6A6A6;
+@value bkColorZ2: bkColorInfo;
+@value bkColorZ3: bkColorSuccess;
+@value bkColorZ4: bkColorWarning;
+@value bkColorZ5: bkColorError;
+@value bkColorZ6: #C300DB;
+@value bkColorGiro: #FF286E;
+@value bkColorDarkBase: bkColorBlack;
+@value bkTypographyBase: HKGrotesk-Regular, Helvetica, Arial, sans-serif;
+@value bkTypographyHeading: HKGothic-Semibold, Helvetica, Arial, sans-serif;
+@value bkTypographyDisplay: bkTypographyHeading;
+@value bkTypographyTitle: bkTypographyHeading;
+@value bkTypographySubtitle: HKGrotesk-Bold, Helvetica, Arial, sans-serif;
+@value bkTypographyCaption: HKGothic-Bold, Helvetica, Arial, sans-serif;
+@value bkTypographyBody: bkTypographyBase;
+@value bkTypographyButton: bkTypographySubtitle;
+@value bkTypographyLink: bkTypographyBase;
+
+/* Giro theme */
+@value giroTypographyBase: Poppins, sans-serif;

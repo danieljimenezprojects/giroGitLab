@@ -1,0 +1,51 @@
+.paddingY-none {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.paddingY-extraSmall {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+.paddingY-small {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.paddingY-medium {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.paddingY-large {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+.paddingY-extraLarge {
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+}
+.paddingX-none {
+    padding-left: 0;
+    padding-right: 0;
+}
+.paddingX-extraSmall {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.paddingX-small {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.paddingX-medium {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.paddingX-large {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.paddingX-extraLarge {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.backgroundOverlay {
+    position: relative;
+}
